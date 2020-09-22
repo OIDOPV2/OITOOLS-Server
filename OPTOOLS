@@ -1,0 +1,49 @@
+#! /bin/bash
+
+date
+
+echo $date
+sleep 1
+echo MEM USAGE
+free
+hostname
+echo WELCOME BACK TO OP TOOLS
+logname
+echo $logname 
+netstat
+sleep 1
+uname
+echo $uname
+users=true
+echo $users 1 USER LOGGED IN
+
+sleep 1
+whoami
+sleep 1
+
+command=false
+id
+
+select=false
+echo $select
+sync
+
+sleep 1
+
+useradd= OPTOOLS
+passwd=OPTOOLS
+
+echo $useradd $passwd
+vmstat
+sleep 1
+bind z
+sleep 1
+cal
+sleep 1
+echo accessing OPTOOL server 
+sleep 1
+echo You will get put in a ssh for the server
+echo password is OIDOP for now 
+sleep 5
+ssh -p 8022  192.168.0.7
+ 
