@@ -1,0 +1,100 @@
+#! /bin/bash
+pkg install root-repo
+pkg install openssh
+date
+
+echo $date
+sleep 1
+echo MEM USAGE
+free
+hostname
+echo WELCOME BACK TO OP TOOLS
+logname
+echo $logname 
+netstat
+sleep 1
+uname
+echo $uname
+users=true
+echo $users 1 USER LOGGED IN
+
+sleep 1
+whoami
+sleep 1
+
+command=false
+id
+
+select=false
+echo $select
+sync
+
+sleep 1
+
+useradd=OPTOOLS
+passwd=OPTOOLS
+
+echo USERNAME= $useradd PASSWORD= $passwd LOGGEDING=True
+sleep 3
+vmstat
+sleep 2
+echo  .
+sleep 1
+cal
+df
+ 
+
+sleep 1
+echo accessing OPTOOL server 
+sleep 3
+echo DONE!!
+sleep 1
+echo You will get put in a ssh for the server
+echo  if it says connection closed its updating check back 15 mins
+echo password is OIDOP for now 
+ping -w 1 192.168.0.7 
+sleep 5
+clear
+echo LOADING.
+sleep1 
+clear
+sleep 2 
+echo LOADING...
+sleep 3
+echo LOADING DONE INSTALLING OIDS  TOOL FRAMEWORK
+clear
+sleep 5
+echo [*]PACKAGE 1/20 INSTALLED
+sleep 3
+clear
+echo [*]PACKAGE  2/20 INSTALLED
+clear
+sleep 3
+echo [*]PACKAGE 3/20 INSTALLED
+sleep 3
+clear
+echo [*]PACKAGE 4/20 INSTALLED
+sleep 3
+clear
+echo [*]PACKAGE 5/20 INSTALLED
+sleep 5
+clear
+echo [*]PACKAGE 6/20 INSTALLED
+sleep 3
+clear
+echo [*]PACKAGE 10/20 INSTALLED
+sleep 1
+clear
+echo [*]PACKAGE 14/20 INSTALLED
+sleep 5
+clear
+echo [*]PACKAGE 19/20 INSTALLED
+sleep 3
+clear
+echo [*]SYSTEM SETTING UP FRAMEWORK 
+sleep 10
+clear
+echo DONE!!
+sleep 1
+ssh -p 8022  192.168.0.7
+ 
